@@ -1,0 +1,12 @@
+{% extends "base1.html" %}
+{% load static %}
+<body>
+<div class="bg">
+{% block content %}
+<h1>{{object.title}}</h1>
+<font color="black">
+<p>{{object.content}}</p>
+</font>
+</div>
+</body>
+{% endblock %}

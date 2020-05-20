@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="624de112-e893-4e3e-945d-fc9eb49f7e90" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Documents.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Blogx.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Untitled Document 1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0002_blogpost_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0003_blogpost_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0004_remove_blogpost_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0005_blogpost_slug.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0006_auto_20200408_1449.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0007_auto_20200414_1241.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0008_blogpost_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0009_auto_20200520_1723.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/0010_auto_20200520_1732.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/co.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/forms.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/list-inline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/static/css/back.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/static/media/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/static/media/co.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/base1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/hs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/templates/sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj/src/try_dj/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/Pipfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/Pipfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/migrations/0002_blogpost_content.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/blogx/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/Hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/blog_post_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/try_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/try_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/try_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/try_django/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/src/try_django/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/try_django/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/try_django/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/try_django/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_dj2/try_django/wsgi.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1V5O5hjSQVPca3lSmguLGfgwUKW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/try_dj/src/blogx/templates" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/try_dj/src/blogx/templates" />
+      <recent name="$PROJECT_DIR$/try_dj/src/blogx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/try_dj/src/blogx/templates/blog" />
+      <recent name="$PROJECT_DIR$/try_dj/src/blogx/templates" />
+      <recent name="$PROJECT_DIR$/try_dj/src/static/css" />
+      <recent name="$PROJECT_DIR$/try_dj/src/static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="forms" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Documents" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/try_dj/src/blogx" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try_dj/src/blogx/forms.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.forms" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="624de112-e893-4e3e-945d-fc9eb49f7e90" name="Default Changelist" comment="" />
+      <created>1576539309001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576539309001</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="39" width="800" height="729" key="#Intentions" timestamp="1586356957918">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="39" width="800" height="729" key="#Intentions/67.27.1299.741@67.27.1299.741" timestamp="1586356957918" />
+    <state x="412" y="201" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586357215407">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="412" y="201" width="598" height="390" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1299.741@67.27.1299.741" timestamp="1586357215407" />
+    <state x="390" y="27" width="642" height="741" key="#forms" timestamp="1589913084775">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="390" y="27" width="642" height="741" key="#forms/67.27.1299.741@67.27.1299.741" timestamp="1589913084775" />
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1590006190315">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590006190315" />
+    <state x="539" y="125" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585486932711">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="539" y="125" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1585486932711" />
+    <state x="205" y="31" key="SettingsEditor" timestamp="1586366159979">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1586366159979" />
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590006213360">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590006213360" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1589917975853">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1589917975853" />
+    <state x="167" y="125" width="1099" height="543" maximized="true" key="dock-window-1" timestamp="1585322603061">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="167" y="125" width="1099" height="543" maximized="true" key="dock-window-1/67.27.1299.741@67.27.1299.741" timestamp="1585322603061" />
+  </component>
+</project>

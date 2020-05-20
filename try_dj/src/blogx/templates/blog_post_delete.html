@@ -1,0 +1,15 @@
+{% extends "base1.html" %}
+{% load static %}
+<body>
+<div class="bg">
+{% block content %}
+<h1>Are you sure you want to delete {{object.title}}?</h1>
+<font color="black">
+<p>{{object.content}}</p>
+<form method="POST">{% csrf_token %}
+     <button class="btn btn-danger">Yes, delete</button>
+</form>
+</font>
+</div>
+</body>
+{% endblock %}

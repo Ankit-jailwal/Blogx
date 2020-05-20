@@ -1,0 +1,12 @@
+{% extends "base1.html" %}
+{% block head_title%}CREATE NEW BLOG{% endblock %}
+{% block content %}
+{% if title %}
+
+<h1>{{title}}</h1>
+{% endif %}
+<form method="POST" action="."> {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">send</button>
+</form>
+{% endblock %}

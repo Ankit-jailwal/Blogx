@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block head_title%}Home Page{% endblock %}
+{% block content %}
+<body style = "background-color:purple;">
+
+<h1>{{title}}</h1>
+<h1>{{user}}</h1>
+
+<h1>{{user.is_authenticated}}</h1>
+{% if user.is_authenticated %}
+<font color="white">
+<h1>USER ONLY DATA</h1>
+    {% for a in my_list %}
+          <li>{{a}}</li>
+    {% endfor %}
+
+{% endif %}
+</font>
+</body>
+{% endblock %}

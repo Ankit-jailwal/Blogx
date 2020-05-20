@@ -1,0 +1,19 @@
+{% extends "base1.html" %}
+{% load static %}
+<div class="bg">
+{% block content %}
+<div class="row">
+{% include 'list-inline.html' with blog_post=object truncated=False detail=True %}
+<font color="black">
+{% if request.user.is_authenticated %}
+    {% if request.user.is_staff %}
+      <div class="col-12">
+        <a href='{{ object.get_edit_url }}'>Edit</a>
+        <a href='{{ object.get_delete_url }}'>Delete</a>
+      </div>
+    {% endif %}
+{% endif %}
+</font>
+</div>
+</div>
+{% endblock %}
