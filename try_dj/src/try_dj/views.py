@@ -5,6 +5,7 @@ from .forms import ContactForm
 from blogx.models import blogpost
 
 
+
 def home_page(request):
     qs=blogpost.objects.all()[:5]
     context = {"title": "Welcome to Blogx","blog_list":qs}

@@ -39,7 +39,7 @@ def blog_post_create_view(request):
      #   template_name='not_a_user.html'
 
       #  return render(request, template_name,{})
-    form = BlogPostModelForm(request.POST or None)
+    form = BlogPostModelForm(request.POST or None, request.FILES or None )
     if form.is_valid():
         obj = form.save(commit=False)
         obj.user = request.user

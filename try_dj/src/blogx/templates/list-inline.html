@@ -1,6 +1,12 @@
 <div class='col-12 col-md-8 mb-3 mx-auto'>
 <div class='card'>
     <div class="card-body">
+        {% if blog_post.image %}
+          <a href="{{ blog_post.get_absolute_url }}">
+            <img src="{{blog_post.image.url }}" class="card-img-top"/>
+
+          </a>
+        {% endif %}
         <h2 class="card-title">{{blog_post.title}}</h2>
 
         <br class="card-text">
