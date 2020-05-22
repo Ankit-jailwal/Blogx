@@ -26,7 +26,7 @@ def contact_page(request):
 
 
 def about_page(request):
-    return render(request, "about.html", {"title": "ABOUT US"})
+    return render(request, "contact.html", {"title": "ABOUT US"})
 
 
 def example_page(request):

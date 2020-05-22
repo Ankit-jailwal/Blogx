@@ -1,25 +1,34 @@
 <!doctype html>
+<html>
 {% load static %}
+{% include 'navbar.html' %}
+<body style = "background-image:url({% static '/media/image1.jpg' %});">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="./style.css">
-<style>
-body, html {
-  height: 100%;
-  margin: 0;
-}
-.bg {
-  background-image: url({% static "media/back5.jpg" %});
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-}
-</style>
-<body class="bg">
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Particles Webpage</title>
+    <link rel="stylesheet" href="{% static '/css/background.css' %}">
+</head>
+<body>
+    <div id="particles-js">
+        <div class="btext">
+            <h1>WELCOME TO BLOGX</h1>
+            <p>Live to Code Another Day</p>
+            <a href="index.html" class="btn">Get Started</a>
+        </div>
+    </div>
 
-    <link href="{% static '/css/style.css' %}" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', '{% static '/json/particles.json' %}',
+        function(){
+            console.log('{% static '/json/particles.json' %} loaded...')
+        })
+    </script>
+</body>
+</body>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -31,7 +40,7 @@ body, html {
 </head>
 
 
-		{% include 'navbar.html' %}
+
 	    <div class='container-fluid'>
 			   {% block content %}
 
