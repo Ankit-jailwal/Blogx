@@ -16,12 +16,18 @@
              {{blog_post.content|truncatewords:30}}
            {% else %}
               {{blog_post.content|linebreaks}}
+              <div class="col-12">
+                    <a href='{{ object.get_edit_url }}' class="btn">Edit</a>
+                    <a href='{{ object.get_delete_url }}' class="btn btn-danger">Delete</a>
+                    <a href='{{ object.get_create_url }}' class="btn">Create new blog</a>
+              </div>
            {% endif %}
         <br>
-         </p>
+
         {% if not detail %}
             {% if not blog_post.publish_date %} Draft {% endif %}
-             <a href="{{ blog_post.get_absolute_url }}">Read more </a>
+             <a href="{{ blog_post.get_absolute_url }}" class="btn ">Read more </a>
+
         {% endif %}
     </div>
 </div>

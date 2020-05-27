@@ -1,19 +1,21 @@
 {% extends "base1.html" %}
 {% load static %}
-<div class="bg">
-{% block content %}
-<div class="row">
-{% include 'list-inline.html' with blog_post=object truncated=False detail=True %}
-<font color="black">
+{% block head %}
+<h1>Trending Blogx for you</h1>
 {% if request.user.is_authenticated %}
     {% if request.user.is_staff %}
-      <div class="col-12">
-        <a href='{{ object.get_edit_url }}'>Edit</a>
-        <a href='{{ object.get_delete_url }}'>Delete</a>
-      </div>
+              <a href='{{ object.get_create_url }}' class="btn btn-danger">Create new blog</a>
     {% endif %}
 {% endif %}
-</font>
+{% endblock %}
+<div class="btext">
+    {% block content %}
+        <font color="black">
+
+    </font>
+    <div class="row">
+    {% include 'list-inline.html' with blog_post=object truncated=False detail=True %}
+
 </div>
 </div>
 {% endblock %}

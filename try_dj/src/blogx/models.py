@@ -58,3 +58,6 @@ class blogpost(models.Model):
     def get_delete_url(self):
         return f"/blog/{self.slug}/delete"
 
+    def get_create_url(self):
+        return f"/blog-new"
+

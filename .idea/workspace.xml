@@ -2,21 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="624de112-e893-4e3e-945d-fc9eb49f7e90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/css/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/json/particles.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/back.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/back2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/back3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/back4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/back5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/media/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/static/css/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_dj/src/static/media/image1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/blogx/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/blogx/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/blogx/static/css/background.css" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/blogx/static/css/background.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/blog_post_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/blogx/templates/list-inline.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/blogx/templates/list-inline.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/try_dj/src/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try_dj/src/static/css/back.css" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/static/css/back.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/try_dj/src/templates/base1.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/base1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/hs.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/hs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_dj/src/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/templates/navbar.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/try_dj/src/try_dj/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/try_dj/src/try_dj/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -152,14 +150,22 @@
       <option name="project" value="LOCAL" />
       <updated>1590129032072</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Worked on css and html">
+      <created>1590174612475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590174612475</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="V1" />
     <MESSAGE value="Added files in V2" />
     <MESSAGE value="added background images" />
-    <option name="LAST_COMMIT_MESSAGE" value="added background images" />
+    <MESSAGE value="Worked on css and html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Worked on css and html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="311" y="39" width="800" height="729" key="#Intentions" timestamp="1586356957918">
@@ -178,10 +184,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="452" y="252" width="518" height="288" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.1299.741@67.27.1299.741" timestamp="1590007687300" />
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1590129031792">
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2" timestamp="1590555870077">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590129031792" />
+    <state x="323" y="27" width="777" height="741" key="CommitChangelistDialog2/67.27.1299.741@67.27.1299.741" timestamp="1590555870077" />
     <state x="539" y="125" width="424" height="484" key="FileChooserDialogImpl" timestamp="1585486932711">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -190,14 +196,14 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1586366159979" />
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590064979422">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590174766622">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590064979422" />
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1589917975853">
+    <state x="311" y="132" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1299.741@67.27.1299.741" timestamp="1590174766622" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1590555767253">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1589917975853" />
+    <state x="372" y="224" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1590555767253" />
     <state x="167" y="125" width="1099" height="543" maximized="true" key="dock-window-1" timestamp="1585322603061">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
